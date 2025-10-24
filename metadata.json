@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "StudySync AI Assistant",
+  "version": "1.0.0",
+  "description": "An AI-powered study assistant that helps students analyze academic content, generate summaries, create study guides, and more, using the power of Google's Gemini models.",
+  "permissions": [
+    "microphone"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "StudySync AI"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
